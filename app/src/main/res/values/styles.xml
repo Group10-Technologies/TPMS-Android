@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/login_tv_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="SpinnerStyle" parent="android:Widget.ListView.DropDown">
+        <item name="android:divider">@color/colorDivider</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_bottom</item>
+    </style>
+    <style name="loginedtstyle">
+        <item name="android:textColorHint">@color/login_tv_color</item>
+        <item name="android:textColor">@color/login_tv_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">fonts/Roboto-Light.ttf</item>
+    </style>
+    <style name="listitemstyle">
+
+        <item name="android:textColor">@color/list_items_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
+    <style name="alerttitlestyle">
+
+        <item name="android:textColor">@color/list_items_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
+    <style name="alertitemstyle">
+
+        <item name="android:textColor">@color/list_items_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
+    <!--<style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabText</item>
+        <item name="tabSelectedTextColor">#fff</item>
+    </style>-->
+    <style name="MyCustomTabText" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+</resources>
